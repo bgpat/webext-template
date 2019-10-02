@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "{{extension_title}}",
+  "version": "0.0.1",
+  "description": "{{extension_description}}",
+  "applications": {
+    "gecko": {
+      "id": "{{{firefox_extension_id}}}",
+      "strict_min_version": "59.0"
+    }
+  },
+  "icons": {
+    "48": "icons/48.png"
+  },
+  "background": {
+    "scripts": ["dist/background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["dist/content_script.js"]
+    }
+  ],
+  "page_action": {
+    "default_icon": {
+      "48": "icons/48.png"
+    },
+    "default_title": "{{extension_title}}"
+  },
+  "web_accessible_resources": ["icons/icon.svg"],
+  "options_ui": {
+    "page": "options.html"
+  },
+  "permissions": ["storage"]
+}
