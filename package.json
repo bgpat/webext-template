@@ -41,7 +41,7 @@
     "eslint-loader": "4.0.2",
     "husky": "9.0.10",
     "lint-staged": "15.2.1",
-    "prettier": "3.2.4",
+    "prettier": "3.2.5",
     "sass-loader": "14.1.0",
     "web-ext": "7.11.0",
     "web-ext-submit": "7.8.0",
