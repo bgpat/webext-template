@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/bgpat/{{repo_name}}#readme",
   "devDependencies": {
-    "@babel/core": "7.24.3",
+    "@babel/core": "7.24.4",
     "@babel/plugin-proposal-class-properties": "7.18.6",
     "@babel/polyfill": "7.12.1",
-    "@babel/preset-env": "7.24.3",
+    "@babel/preset-env": "7.24.4",
     "@bgpat/webext-webpack-plugin": "0.1.8",
     "@babel/eslint-parser": "7.24.1",
     "babel-loader": "9.1.3",
