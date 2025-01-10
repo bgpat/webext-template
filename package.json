@@ -32,7 +32,7 @@
     "@babel/polyfill": "7.12.1",
     "@babel/preset-env": "7.26.0",
     "@bgpat/webext-webpack-plugin": "0.1.8",
-    "@babel/eslint-parser": "7.25.9",
+    "@babel/eslint-parser": "7.26.5",
     "babel-loader": "9.2.1",
     "babel-minify-webpack-plugin": "0.3.1",
     "chrome-webstore-upload-cli": "3.3.1",
